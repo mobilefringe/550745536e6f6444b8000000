@@ -257,59 +257,59 @@
                <div class="navbar-header"><a class="navbar-brand" href="/home" id="site_logo">
                <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}" alt="Alliston Mills">{% endraw %}</script>
                </a><a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"><span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
-                <div class="mobile_menu" style="display:none">
-                    <ul>
-                        <li><a href="/stores">Store Directory</a></li>
-                        <li><a href="/promotions">Promotions</a></li>
-                        <li><a href="#" onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>
-                            <div id="leasing_dd" class="submenu" style="display:none">
-                                <ul>
-                                    <li><a href="/leasing">Leasing</a></li>
-                                    <li><a href="/photos">Photos</a></li>
-                                </ul>    
-                            </div>
-                        </li>
-                          <li><a href="/find_us">Find Us</a></li>
-                        <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
-                            <div id="contact_dd" class="submenu" style="display:none">
-                                <ul>
-                                    <li><a href="/contact_us">Contact Us</a></li>
-                                  
-                                    <li><a href="/about_us">About Us</a></li>
-                                    <!--<li><a href="/hours">Shopping Hours</a></li>-->
-                                    <li><a href="/jobs">Jobs</a></li>
-                                </ul>    
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="collapse navbar-collapse">              
-                    <ul class="nav pull-right navbar-nav">
-                        
-                      
-                                <li><a href="/stores">Store Directory</a></li>
-                                
-                         <!--<li id="event_link"><a href="/events">Events</a></li>-->
-                         <li id="promotion_link"><a href="/promotions">Promotions</a></li>
-                         <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
+            <div class="mobile_menu" style="display:none">
+                <ul>
+                    <li><a href="/stores">Store Directory</a></li>
+                    <li><a href="/promotions">Promotions</a></li>
+                    <li><a href="#" onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>
+                        <div id="leasing_dd" class="submenu" style="display:none">
+                            <ul>
                                 <li><a href="/leasing">Leasing</a></li>
                                 <li><a href="/photos">Photos</a></li>
-                            </ul> 
-                         </li>
-                            <li><a href="/find_us">Find Us</a></li>
-                         <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
-                             <ul class="dropdown-menu">
+                            </ul>    
+                        </div>
+                    </li>
+                      <li><a href="/find_us">Find Us</a></li>
+                    <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
+                        <div id="contact_dd" class="submenu" style="display:none">
+                            <ul>
                                 <li><a href="/contact_us">Contact Us</a></li>
-                             
+                              
                                 <li><a href="/about_us">About Us</a></li>
                                 <!--<li><a href="/hours">Shopping Hours</a></li>-->
                                 <li><a href="/jobs">Jobs</a></li>
-                            </ul> 
-                         </li>
-                    </ul>
-                </div>
+                            </ul>    
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse">              
+                <ul class="nav pull-right navbar-nav">
+                    
+                  
+                            <li><a href="/stores">Store Directory</a></li>
+                            
+                     <!--<li id="event_link"><a href="/events">Events</a></li>-->
+                     <li id="promotion_link"><a href="/promotions">Promotions</a></li>
+                     <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/leasing">Leasing</a></li>
+                            <li><a href="/photos">Photos</a></li>
+                        </ul> 
+                     </li>
+                        <li><a href="/find_us">Find Us</a></li>
+                     <li id="contact_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                            <li><a href="/contact_us">Contact Us</a></li>
+                         
+                            <li><a href="/about_us">About Us</a></li>
+                            <!--<li><a href="/hours">Shopping Hours</a></li>-->
+                            <li><a href="/jobs">Jobs</a></li>
+                        </ul> 
+                     </li>
+                </ul>
+            </div>
         </div>
         <a href="//bentallkennedy.com/" target="_blank">
             <div class="bk_logo_svg"> <p style="display:none">Bentall Kennedy</p></div>
