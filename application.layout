@@ -109,16 +109,16 @@
             background-repeat: no-repeat;
         }
         a .directory_content:hover{
-            color: ##666666 !important;
+            color: #646464 !important;
         }
         /*hyperlinks*/
         a {
-            color:##666666;
+            color:#646464;
             text-decoration:inherit;
         }
         /*hyperlink hover color*/
         a:hover{
-            color: ##666666 !important;
+            color: #646464 !important;
         }
         body{
             background:white;
