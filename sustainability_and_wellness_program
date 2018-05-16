@@ -2,16 +2,18 @@
     <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
 <div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Sustainability & Wellness Program</li>
-    </ul>
+    <nav>
+        <ul class="breadcrumb">
+            <li><a href="/home">Home</a> </li>
+            <li class="active">Sustainability & Wellness Program</li>
+        </ul>
+    </nav>
     <div class="page_banner">
-        Sustainability & Wellness Program
+        <h2>Sustainability & Wellness Program</h2>
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54e4c5846e6f640b1b000000/0c6440cf3178978c6ae2b530b853f567/promo.jpg"/>
+            <img class="inside_banner_image" alt="" src="//kodekloud.s3.amazonaws.com/sites/54e4c5846e6f640b1b000000/0c6440cf3178978c6ae2b530b853f567/promo.jpg"/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
@@ -21,12 +23,11 @@
                         </a> 
                     </div>
                         <div class="promo_desc_box">
-             
-               <a href="../sustainability_and_wellness_program/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
-                            <!-- <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{dates}}</p> -->
+                            <p class="promo_header right_column_header">{{name}}</p>
                             <p class="directory_content promo_date">{{dates}}</p>
                             <p id="desc">{{description}}</p>
-                            <a href="../sustainability_and_wellness_program/{{slug}}" class="btn btn-primary pull-left">Read More</a> </div>
+                            <a href="../sustainability_and_wellness_program/{{slug}}" class="btn btn-primary pull-left" aria-label="Event Details: {{name}}"
+>Event Details</a> </div>
                         </div>
                     </div>
                 </script>
@@ -73,7 +74,7 @@
             
             $("#loading_screen").hide();
             $("#main_content").show();
-            $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $.getScript("http://bkindoortemplate.codecloudapp.com/slimbox_mod.js");
             $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
         
@@ -112,6 +113,7 @@
                     
                     var start = moment(val.start_date).tz(getPropertyTimeZone());
                     var end = moment(val.end_date).tz(getPropertyTimeZone());
+                    
                     val.dates = start.format("MMM D");
                 }
                 
