@@ -48,7 +48,7 @@
                                     <figure >
                                         <img class="feature_image" src="{{image_url}}" />
                                         <figcaption>
-                                            <div class="view_button">View</div>
+                                            <div class="view_button" alt="Click here for more info on {{name}}">View</div>
                                         </figcaption>
                                     </figure>
                                 </a>
