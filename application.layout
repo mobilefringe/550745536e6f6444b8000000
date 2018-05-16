@@ -690,5 +690,4 @@
     		return false;
     	});
     });
-
 </script>
