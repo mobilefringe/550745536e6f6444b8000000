@@ -102,7 +102,7 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                     <br>
                     <div id="mm_page_content" class="directory_content"></div>
-                   <p class="directory_content"><strong>Stuart Hathaway</strong> 
+                    <p class="directory_content"><strong>Stuart Hathaway</strong> 
                     <br>General Manager
                     <br>(905) 878-3900 ext. 202
                     <br><a href="mailto:shathaway@bentallkennedy.com">shathaway@bentallkennedy.com</a></p>
