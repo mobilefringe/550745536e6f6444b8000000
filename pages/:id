@@ -60,11 +60,8 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            console.log(prefix)
-            var pages_json = "https:" + prefix + "/pages/" + slug + ".json"
-            console.log(pages_json)
+            var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                console.log(data)
                 //var pages_data = JSON.parse(data);
                 // console.log(data.body);
                 
