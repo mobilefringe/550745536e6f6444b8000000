@@ -60,7 +60,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             // var prefix = get_prefix();
-            var prefix = "alliston.mallmaverick"
+            var prefix = "alliston.mallmaverick.com"
             var pages_json = prefix+"/pages/" + slug + ".json"
             console.log(pages_json)
             $.getJSON(pages_json).done(function(data) {
