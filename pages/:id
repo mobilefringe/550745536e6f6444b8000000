@@ -14,6 +14,7 @@
         <h2  id="page_title"></h2>
     </div>
     <div class="inside_page_content" >
+        <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/550745536e6f6444b8000000/0b33254c219abdafe689d8c0ff87af72/Untitled-3.jpg"/>
         <div class="left_column" id="mm_page_content">
             
         </div>
@@ -53,6 +54,10 @@
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             renderpageHTML();
             $("#loading_screen").hide();
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('About Us Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            $(".inside_banner_image").attr("src", bannerImageUrl);
             $( "#main_content" ).fadeIn( "fast");
         }
         
