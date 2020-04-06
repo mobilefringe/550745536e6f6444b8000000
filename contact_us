@@ -13,7 +13,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/550745536e6f6444b8000000/0b33254c219abdafe689d8c0ff87af72/Untitled-3.jpg"/>
+            <img class="inside_banner_image" alt="banner" src=""/>
             <div class="show_mobile">
                 <p class="right_column_header">centre information</p>
                 <div id="centre_info_container_mobile">
@@ -185,6 +185,11 @@
             });
             $("#loading_screen").hide();
             $("#main_content").show();
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Contact Us Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            $(".inside_banner_image").attr("src", bannerImageUrl);
         }
 
         function renderPageData(container, template, collection, type){
