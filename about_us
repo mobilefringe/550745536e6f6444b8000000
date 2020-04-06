@@ -52,6 +52,9 @@
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             $("#loading_screen").hide();
             $("#main_content").show();
+            var bannerInfo = getRepoDetailsByName('Stores Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            $(".inside_banner_image").attr("src", bannerImageUrl);
         }
         
     
