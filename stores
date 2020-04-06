@@ -76,7 +76,8 @@
             renderPageData('#centre_info_container','#centre_info_template', propertyDetails, 'property_details');
             
             var bannerInfo = getRepoDetailsByName('Stores Banner')
-            console.log(bannerInfo)
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            console.log(bannerImageUrl)
             
             var stores = getStoresList();
             stores = _.filter(stores, function(o) { return o.name != "Bentall Kennedy Store" });
