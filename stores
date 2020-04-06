@@ -82,7 +82,7 @@
             var bannerInfo = getRepoDetailsByName('Stores Banner')
             var bannerImageUrl = bannerInfo.images[0].image_url
             console.log(bannerImageUrl)
-            $(".inside_banner_image").attr("src", "'" + bannerImageUrl + "'");
+            $(".inside_banner_image").attr("src", bannerImageUrl);
             // $(".inside_banner_image") attr("src", "'" + bannerImageUrl + "'");
             
             var stores = getStoresList();
