@@ -104,7 +104,7 @@
         position: absolute;
         right: 0;
         bottom: -5px;
-        background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
+        background-image: url(https://www.assets.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
         background-size: 194px 95px;
         background-repeat: no-repeat;
     }
@@ -250,7 +250,7 @@
             right: unset;
             left: 0;
             bottom: -30px;
-            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
+            background-image: url(https://www.assets.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
             background-size: 194px 95px;
             background-repeat: no-repeat;
         }
@@ -436,7 +436,7 @@
             <div class="container">
                 <div class="row">
                      <div class="col-sm-6 col-md-6 footer-text">&copy; <span id="current_year"></span> Alliston Mills Shopping Centre all rights reserved. <a href="/privacy_policy">Privacy Policy</a>  </div>
-                     <div class="text-right col-sm-6 col-md-6 footer-text"> Powered by <a href="//mallmaverick.com/" target="_blank">Mall Maverick</a> </div>
+                     <div class="text-right col-sm-6 col-md-6 footer-text"> Powered by <a href="//assets.mallmaverick.com/" target="_blank">Mall Maverick</a> </div>
                 </div>
             </div>
         </section>
