@@ -436,7 +436,7 @@
             <div class="container">
                 <div class="row">
                      <div class="col-sm-6 col-md-6 footer-text">&copy; <span id="current_year"></span> Alliston Mills Shopping Centre all rights reserved. <a href="/privacy_policy">Privacy Policy</a>  </div>
-                     <div class="text-right col-sm-6 col-md-6 footer-text"> Powered by <a href="//mallmaverick.com/" target="_blank">Mall Maverick</a> </div>
+                     <div class="text-right col-sm-6 col-md-6 footer-text"> Powered by <a href="//assets.mallmaverick.com/" target="_blank">Mall Maverick</a> </div>
                 </div>
             </div>
         </section>
